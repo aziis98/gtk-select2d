@@ -1,5 +1,7 @@
 # 2D Image Selector
 
+![screenshot](./screenshot.png)
+
 The 2D Image Selector is a simple GTK application written in Python that allows users to load an image and interactively select a quadrilateral by placing four draggable points on the image. The selected quadrilateral can be used for various purposes, such as cropping or defining regions of interest in the image.
 
 **Note.** All this project was made by chatting with ChatGPT (GTK + ChatGPT = :heart:)
@@ -23,6 +25,8 @@ $ pip install -r requirements.txt
 ```bash shell
 $ ./select2d [--title <title>] [--polyline] [--closed] <image>
 ```
+
+4. The output contains the four points in the image.
 
 **Arguments:**
 
