@@ -36,7 +36,7 @@ $ ./select2d [--title <title>] [--polyline] [--closed] <image>
 
 - `--title` or `-t`: Set a custom window title for the application (default: "2D Image Selector").
 - `--polyline` or `-s`: Show the outline of the quadrilateral that is formed by connecting the selected points.
-- `--closed` or `-c`: Indicate if the drawn path should be closed, forming a closed polygon. This option is relevant when selecting more than four points.
+- `--closed` or `-c`: Indicate if the drawn path should be closed, forming a closed polygon. This option is relevant only when displaying the quadrilateral with the previous option.
 
 ## Usage Example
 
