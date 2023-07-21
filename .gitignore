@@ -1,0 +1,13 @@
+
+# Python
+env/
+
+# Local files
+.env
+*.local*
+
+# Binaries
+bin/
+.out/
+out/
+dist/
