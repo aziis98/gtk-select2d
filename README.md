@@ -12,6 +12,16 @@ I wanted to make a small GTK application for a while but I had problems finding 
 
 > Python + GTK + ChatGPT = :heart:
 
+Ironically this can be done in something like three lines of Mathematica code
+
+```mathematica
+DynamicModule[{pt1 = {0, 0}, pt2 = {100, 0}, pt3 = {100, 100}, pt4 = {0, 100}},
+  LocatorPane[Dynamic[{pt1, pt2, pt3, pt4}],
+    Show[img, Graphics[{Directive[Red, Opacity[0.5]], EdgeForm[{Red, Thickness[2]}], Polygon[Dynamic[{pt1, pt2, pt3, pt4}]]}]]
+  ]
+]
+```
+
 ## Usage
 
 - Clone the repository:
