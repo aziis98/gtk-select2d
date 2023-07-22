@@ -10,25 +10,32 @@ Select2d is a simple GTK widget written in Python that allows users to load an i
 
 ## Usage
 
-1. Clone the repository:
+- Clone the repository:
 
 ```bash shell
 $ git clone https://github.com/aziis98/gtk-select
 ```
 
-2. Install the required dependencies:
+- Create and activate a virtual environment
+
+```bash shell
+$ python -m venv env
+$ source env/bin/activate
+```
+
+- Install the required dependencies:
 
 ```bash shell
 $ pip install -r requirements.txt
 ```
 
-3. Run the application with the desired options:
+- Run the application with the desired options:
 
 ```bash shell
 $ ./select2d [--title <title>] [--polyline] [--closed] <image>
 ```
 
-4. The output contains the four points in the image.
+- The output contains the four points in the image.
 
 **Arguments:**
 
