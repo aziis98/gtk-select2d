@@ -1,6 +1,8 @@
 # 2D Image Selector
 
-![screenshot](./screenshot.png)
+<p align="center">
+  <img src="./screenshot.png" width="75%"/>
+</p>
 
 Select2d is a simple GTK widget written in Python that allows users to load an image and interactively select a quadrilateral by placing four draggable points on the image. The coordinates of the selected quadrilateral are printed to standard output after confirmation.
 
