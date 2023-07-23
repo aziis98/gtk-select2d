@@ -15,7 +15,7 @@ I wanted to make a small GTK application for a while but I had problems finding 
 Ironically this can be done in something like three lines of Mathematica code
 
 <p align="center">
-  <img src="./screenshot-2.png" width="75%"/>
+  <img src="./screenshot-mathematica.png" width="75%"/>
 </p>
 
 ## Usage
