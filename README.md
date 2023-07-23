@@ -27,7 +27,7 @@ DynamicModule[{pt1 = {0, 0}, pt2 = {100, 0}, pt3 = {100, 100}, pt4 = {0, 100}},
 - Clone the repository:
 
     ```bash shell
-    $ git clone https://github.com/aziis98/gtk-select
+    $ git clone https://github.com/aziis98/gtk-select2d
     ```
 
 - Create and activate a virtual environment
